@@ -116,9 +116,7 @@ console.log(regex.getDetails())
 
 ### constructor
 
-```js
-constructor((pattern = ''), (flags = ''), (useRawPattern = false))
-```
+#### `constructor((pattern = ''), (flags = ''), (useRawPattern = false))`
 
 - `pattern` _(string)_: Pola regex awal. Default adalah string kosong.
 - `flags` _(string)_: Flag regex opsional seperti `g`, `i`, dll.
@@ -126,7 +124,7 @@ constructor((pattern = ''), (flags = ''), (useRawPattern = false))
 
 ### method
 
-`updatePattern(pattern, flags = '', useRawPattern = false)`
+#### `updatePattern(pattern, flags = '', useRawPattern = false)`
 
 Mengubah pola regex dengan opsi untuk menggunakan regex mentah.
 
@@ -134,74 +132,74 @@ Mengubah pola regex dengan opsi untuk menggunakan regex mentah.
 - `flags` _(string)_: Flag regex baru.
 - `useRawPattern` _(boolean)_: Gunakan regex mentah jika `true`.
 
-### `test(input)`
+#### `test(input)`
 
 Menguji apakah input cocok dengan pola regex.
 
 - `input` _(any)_: Teks atau data yang akan diuji.
 
-#### Return:
+##### Return:
 
 - _(boolean)_ Hasil pengujian.
 
-### `match(input)`
+#### `match(input)`
 
 Mencocokkan semua hasil sesuai dengan pola regex.
 
 - `input` _(any)_: Teks atau data yang akan dicocokkan.
 
-#### Return:
+##### Return:
 
 - _(array|null)_ Array hasil pencocokan.
 
-### `replace(input, replacement)`
+#### `replace(input, replacement)`
 
 Mengganti teks yang cocok dengan pola regex.
 
 - `input` _(any)_: Teks yang akan diubah.
 - `replacement` _(string)_: Pengganti teks.
 
-#### Return:
+##### Return:
 
 - _(string)_ Hasil penggantian.
 
-### `split(input)`
+#### `split(input)`
 
 Memisahkan string berdasarkan pola regex.
 
 - `input` _(any)_: Teks yang akan dipisahkan.
 
-#### Return:
+##### Return:
 
 - _(array)_ Array hasil pemisahan.
 
-### `extractGroups(input)`
+#### `extractGroups(input)`
 
 Mengekstrak grup dari hasil pencocokan.
 
 - `input` _(any)_: Teks yang akan diproses.
 
-#### Return:
+##### Return:
 
 - _(array)_ Array grup yang cocok.
 
-### `getDetails()`
+#### `getDetails()`
 
 Mendapatkan detail pola regex saat ini.
 
-#### Return:
+##### Return:
 
 - _(object)_ Objek dengan properti:
 - `pattern` _(string)_: Pola regex.
 - `flags` _(string)_: Flag regex.
 - `useRawPattern` _(boolean)_: Apakah menggunakan regex mentah.
 
-### `escape(text)`
+#### `escape(text)`
 
 Metode statis untuk melindungi teks literal (escape karakter regex).
 
 - `text` _(string)_: Teks yang akan di-_escape_.
 
-#### Return:
+##### Return:
 
 - _(string)_ Teks yang sudah di-_escape_.
