@@ -1,0 +1,40 @@
+{
+  "name": "regex-toolkit",
+  "version": "0.0.0",
+  "description": "RegexToolkit adalah sebuah alat sederhana untuk mempermudah penggunaan *regular expressions* (regex) di JavaScripti",
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js"
+  },
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "./dist/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "regex-toolkit",
+    "regex",
+    "regex-tool",
+    "regular-expression",
+    "regex-library",
+    "regex-helper",
+    "pattern-matching",
+    "regex-pattern",
+    "regex-replacement",
+    "regex-split",
+    "regex-escape",
+    "string-matching",
+    "javascript-regex",
+    "regex-parser"
+  ],
+  "author": "salmantok",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmantok/regex-toolkit.git"
+  },
+  "homepage": "https://github.com/salmantok/regex-toolkit#readme"
+}
