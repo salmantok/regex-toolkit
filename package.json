@@ -1,6 +1,6 @@
 {
   "name": "regex-toolkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "RegexToolkit adalah sebuah alat sederhana untuk mempermudah penggunaan *regular expressions* (regex) di JavaScripti",
   "exports": {
     "require": "./dist/cjs/index.js",
