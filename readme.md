@@ -138,9 +138,9 @@ Menguji apakah input cocok dengan pola regex.
 
 - `input` _(any)_: Teks atau data yang akan diuji.
 
-##### Return:
+- Return:
 
-- _(boolean)_ Hasil pengujian.
+  - _(boolean)_ Hasil pengujian.
 
 #### `match(input)`
 
@@ -148,9 +148,9 @@ Mencocokkan semua hasil sesuai dengan pola regex.
 
 - `input` _(any)_: Teks atau data yang akan dicocokkan.
 
-##### Return:
+- Return:
 
-- _(array|null)_ Array hasil pencocokan.
+  - _(array|null)_ Array hasil pencocokan.
 
 #### `replace(input, replacement)`
 
@@ -159,9 +159,9 @@ Mengganti teks yang cocok dengan pola regex.
 - `input` _(any)_: Teks yang akan diubah.
 - `replacement` _(string)_: Pengganti teks.
 
-##### Return:
+- Return:
 
-- _(string)_ Hasil penggantian.
+  - _(string)_ Hasil penggantian.
 
 #### `split(input)`
 
@@ -169,9 +169,9 @@ Memisahkan string berdasarkan pola regex.
 
 - `input` _(any)_: Teks yang akan dipisahkan.
 
-##### Return:
+- Return:
 
-- _(array)_ Array hasil pemisahan.
+  - _(array)_ Array hasil pemisahan.
 
 #### `extractGroups(input)`
 
@@ -179,20 +179,20 @@ Mengekstrak grup dari hasil pencocokan.
 
 - `input` _(any)_: Teks yang akan diproses.
 
-##### Return:
+- Return:
 
-- _(array)_ Array grup yang cocok.
+  - _(array)_ Array grup yang cocok.
 
 #### `getDetails()`
 
 Mendapatkan detail pola regex saat ini.
 
-##### Return:
+- Return:
 
-- _(object)_ Objek dengan properti:
-- `pattern` _(string)_: Pola regex.
-- `flags` _(string)_: Flag regex.
-- `useRawPattern` _(boolean)_: Apakah menggunakan regex mentah.
+  - _(object)_ Objek dengan properti:
+  - `pattern` _(string)_: Pola regex.
+  - `flags` _(string)_: Flag regex.
+  - `useRawPattern` _(boolean)_: Apakah menggunakan regex mentah.
 
 #### `escape(text)`
 
@@ -200,6 +200,6 @@ Metode statis untuk melindungi teks literal (escape karakter regex).
 
 - `text` _(string)_: Teks yang akan di-_escape_.
 
-##### Return:
+- Return:
 
-- _(string)_ Teks yang sudah di-_escape_.
+  - _(string)_ Teks yang sudah di-_escape_.
